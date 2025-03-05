@@ -802,4 +802,42 @@ p {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+.working-on {
+    padding: 5rem 0;
+    position: relative;
+}
+
+.working-on h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+    color: var(--text-color);
+}
+
+.working-on .project-card {
+    background: var(--card-bg);
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+}
+
+.working-on .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.working-on .status {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: var(--gradient);
+    color: white;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-top: 1rem;
 } 
